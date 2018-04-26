@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Dia Mundial de la Bicicleta</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/bicis3.jpg','imagenes/bicicleta.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1> DIA MUNDIAL DE LA BICICLETA</h1>
+</div>
+<div data-role="main" class="ui-content">
+ <div data-role="collapsible" data-theme="false">
+ <h1>Banner conmemorativo</h1>
+ <div>
+ <p>Esta es el banner:</p>
+ <br>
+ </div>
+ <div>
+ <img src="imagenes/bicicleta.jpg" width="50%" height="50%">
+ </div>
+ </div>
+ </div>
+ <div>
+ <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r"  >
+ <h2> Historia de la bicicleta</h2>
+ <p>Se muestra la historia de la bicicleta</p>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r"  >
+ <h2> Utilizacion como medio de transporte</h2>
+ <p>Muestra que es el ciclismo urbano</p>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2> Tipos de bicicletas</h2>
+ <p>Muestra los tipos de bicicletas</p>
+ </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2> 5 marcas importantes de bicicletas</h2>
+ <p>Muestras 5 marcas de biciletas</p>
+  </a>
+ </li>
+ <li class="ui-first-child ui-last-child">
+ <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+ <h2> Porque se celebra el dia mundial de la bicicleta</h2>
+ <p>Muestra el porque de la celebracion</p>
+ </a>
+ </li>
+ </ul>
+ </div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+ <div>
+ <img src="imagenes/mdpi.png" width="46" height="46">
+ </div>
+ <div>
+ <h4>Aplicacion Tres</h4>
+ <h4>Contreras Izucar Alejandro Elisau</h4>
+ </div>
+ </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>ORIGEN DE LA BICICLETA</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2> El barón alemán Karl Christian Ludwig Drais von Sauerbronn inventó el primer vehículo de dos ruedas, al que llamó máquina andante. Precursora de la bicicleta y la motocicleta.
+Consistía en una especie de carrito de dos ruedas, colocadas una detrás de otra, y un manillar. La persona se mantenía sentada sobre una pequeña montura, colocada en el centro de un pequeño marco de madera. Para moverse, empujaba alternativamente con el pie izquierdo y el derecho hacia adelante Sus brazos descansaban sobre un apoyabrazos de hierro, y con las manos sostenía una vara de madera, unida a la rueda delantera, que giraba en la dirección hacia la cual quería ir el conductor.
+</h2>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sust1','','imagenes/bicis3.jpg',1)"><img src="imagenes/bicis8.jpg" width="275" height="183" id="sust1"></a> </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+<h4>Aplicacion Tres, CIAE</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>El ciclismo urbano</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>El ciclismo urbano o "ciclabilidad" consiste en la utilización de la bicicleta como medio de transporte urbano, generalmente para distancias cortas. Debido a la proliferación del automóvil a partir de la Segunda Guerra Mundial, que provocó la paulatina congestión del tráfico urbano y la invasión del espacio público, la bicicleta se convirtió en una de las principales alternativas para mejorar la habitabilidad de la ciudad. Algunos de los países que han utilizado progresivamente el ciclismo urbano como medio de transporte importante
+La bicicleta es probablemente el medio de transporte urbano más común en todo el mundo.La bicicleta resulta el segundo medio de transporte más utilizado después del transporte a pie. Se desconoce el número de bicicletas que hay en todo el mundo, aunque se estima que hay más de mil millones. Además, parece ser que se producen significativamente (más del doble) de bicicletas que de automóviles.
+</h2>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sus2','','imagenes/bicicleta.jpg',1)"><img src="imagenes/bicis2.jpg" width="1200" height="550" id="sus2"></a> </div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+<h4>Aplicacion Tres, CIAE</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Tipos de bicicleta</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>
+<li>Bicicletas de Montaña (MTB)
+<li>Bicicletas de Ruta
+<li>Bicicletas Híbridas
+<li>Bicicletas plegables
+<li>Fixies y single speed
+<li>Cruisers
+<li>MBX
+<li>Touring
+<li>Eléctricas
+<li>Bicicletas utilitarias
+<li>Fat Bikes
+</h2>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container3">
+<div class="ws_images"><ul>
+		<li><img src="data3/images/bicis2.jpg" alt="bicis" title="bicis" id="wows3_0"/></li>
+		<li><img src="data3/images/bicis6.jpg" alt="1" title="1" id="wows3_1"/></li>
+		<li><img src="data3/images/bicis8.jpg" alt="2" title="2" id="wows3_2"/></li>
+		<li><img src="data3/images/bicis4.jpg" alt="3" title="3" id="wows3_3"/></li>
+		<li><img src="data3/images/bicis3.jpg" alt="4" title="4" id="wows3_4"/></li>
+		<li><img src="data3/images/bicis5.jpg" alt="5" title="5" id="wows3_5"/></li>
+		<li><a href="http://wowslider.net"><img src="data3/images/bicis9.jpg" alt="http://wowslider.net/" title="6" id="wows3_6"/></a></li>
+		<li><img src="data3/images/bicis.jpg" alt="7" title="7" id="wows3_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="bicis"><span><img src="data3/tooltips/bicis2.jpg" alt="bicis"/>1</span></a>
+		<a href="#" title="1"><span><img src="data3/tooltips/bicis6.jpg" alt="1"/>2</span></a>
+		<a href="#" title="2"><span><img src="data3/tooltips/bicis8.jpg" alt="2"/>3</span></a>
+		<a href="#" title="3"><span><img src="data3/tooltips/bicis4.jpg" alt="3"/>4</span></a>
+		<a href="#" title="4"><span><img src="data3/tooltips/bicis3.jpg" alt="4"/>5</span></a>
+		<a href="#" title="5"><span><img src="data3/tooltips/bicis5.jpg" alt="5"/>6</span></a>
+		<a href="#" title="6"><span><img src="data3/tooltips/bicis9.jpg" alt="6"/>7</span></a>
+		<a href="#" title="7"><span><img src="data3/tooltips/bicis.jpg" alt="7"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+<a href="https://www.trekbikes.com" target="_self">Mas informacion sobre los tipos de bicicletas</a>
+</div>	
+<script type="text/javascript" src="engine3/wowslider.js"></script>
+<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+<h4>Aplicacion Tres, CIAE</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Marcas de bicicleta mas importantes</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Specialized</h2>
+<h4>La firma de la “s” es, indiscutiblemente, y por méritos propios, la mejor marca de bicicletas del mundo.</h4>
+<h2>Scott</h2>
+<h4>Marca Suiza dispuesta a seguir el camino de Specialized ampliando su cartera de productos a prácticamente todo el sector ciclista.</h4>
+<h2>Trek</h2>
+<h4>Todo un referente a nivel de ventas mundiales con muchos años a la estela de Specialized.</h4>
+<h2>Giant</h2>
+<h4>El mayor fabricante de bicicletas del mundo (fabrica también para terceros). La empresa con sede en Taiwan es un referente en cuanto a comodidad. </h4>
+<h2>Canyon</h2>
+<h4>Canyon es la única marca de bicicletas que solo vende por internet y que no ofrece sus bicicletas en tienda física
+</h4>
+<img src="imagenes/bicis8.jpg" width="50%" height="50%">
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+<h4>Aplicacion Tres, CIAE</h4>
+</div>
+</div>
+
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Por que se celebra?</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>POR QUE SE CELEBRA?</h2>
+<h4>4El Día Mundial de la Bicicleta o Día de la Bicicleta se celebra en todo el mundo cada 19 de abril con la finalidad de promover el uso de este medio de transporte, llamar la atención sobre los derechos de los ciclistas y destacar sus beneficios para la salud y para la movilidad sostenible. La fecha hace referencia al 19 de abril de 1943, cuando Albert Hofmann, conocido como «el padre del LSD», realizaba en su laboratorio un autoexperimeto con una sustancia para determinar sus efectos psicotrópicos, tras el cual su regreso a casa en bicicleta se tornaría famoso</h4>
+<img src="imagenes/bicis5.jpg" width="50%" height="50%">
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+<h4>Aplicacion Tres, CIAE</h4>
+</div>
+</div>
+</body>
+</html>
+
+              
+                          
+         
+         
+         
+        
+            
+            
+            
